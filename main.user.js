@@ -9,6 +9,7 @@
 // ==/UserScript==
 
 (function() {
+    console.log('1');
     'use strict';
     let style = document.createElement('style');
     style.innerHTML = '*{ user-select: auto !important; webkit-user-select: auto !important; }';
